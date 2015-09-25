@@ -32,11 +32,11 @@
   <h5>about me</h5>
   <h6>let me introduce my self</h6>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <hr>
+  
   <div class="row">
     
-    <div class="col s12 m4 l4">
-      <h6>current jobs</h6>
+    <div class="col s3">
+      <h6>skills</h6>
       <ul class="collapsible">
         <li class="active">
           <div class="collapsible-header"><i class="fa fa-html5"></i>
@@ -60,9 +60,14 @@ HTML5</div>
         </li>
       </ul>
     </div>
-  </div>
-</div>
 
+  </div>
+   <div class="col s9">
+   	 <!-- skills char -->
+      <div id="piechart" style="width: 300px; height: 3s00px;"></div>
+   </div>
+</div>
+     
     <!-- portfolio -->
      <div class="container portfolio">
   <h5>portfolio</h5>
@@ -79,7 +84,10 @@ HTML5</div>
 </div>
 <!--contact-->
 
-
+     <!-- skills js -->
+     <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['corechart']}]}"></script>
+      
+   
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

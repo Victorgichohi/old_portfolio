@@ -45,16 +45,9 @@ body, html
     margin-bottom: 45px;
 }
 
-.about hr
-{
-    width: 40px;
-    margin-bottom: 45px;
-}
 
-.about .card
-{
-    text-align: center;
-}
+
+
 /*about section*/
 
 .portfolio .col
