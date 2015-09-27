@@ -59,6 +59,11 @@ body, html
     display: inline-block;
     font-size: 1.2rem;
 }
+.social i{
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+}
 .about .col
 {
     margin-bottom: 24px;
