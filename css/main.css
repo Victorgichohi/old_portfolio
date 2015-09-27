@@ -30,11 +30,19 @@ footer, header, hgroup, menu, nav, section {
 }
 body, html
 {
-   
-    background-color: #EDEDED !important;
+    background-image: url(../assets/dark.jpg);
+    background-size: cover;
+    opacity: 5;
+  
+}
+#body{
+     background-color: #EDEDED !important;
+    margin-left: 60px;
+    max-width: 1200px;
 }
 /*navigation*/
 #navigation {
+    max-width: inherit;
 position: fixed;
 top: 0;
 width: 100%;
