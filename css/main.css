@@ -45,13 +45,15 @@ body, html
 }
 
 .intro h1
-{
+{   
+    font-family: 'Slabo 27px', serif;
     font-weight: 900;
     text-transform: uppercase;
 }
 
 .intro h5
-{
+{   
+    font-family: 'Slabo 27px', serif;
     text-transform: uppercase;
     background-color: #f5f5f5;
     padding: 10px;
@@ -67,8 +69,13 @@ body, html
 /*about me*/
 .about{
     padding: 10px;
+
+}
+.me{
+    height: 200px!important;
 }
 .about p{
+    font-family: 'Slabo 27px', serif;
     font-size: 25px;
 }
 .about .col
@@ -145,7 +152,7 @@ body, html
 }
 .row .img1 a{
     position: absolute;
-    left:30%;
+    text-align: left;
 }
 .row .img2{
     position: absolute;
