@@ -64,10 +64,18 @@ body, html
     color: white;
     padding: 10px;
 }
+/*about me*/
+.about{
+    padding: 10px;
+}
+.about p{
+    font-size: 25px;
+}
 .about .col
 {
     margin-bottom: 24px;
 }
+
 
 .about h5
 {
@@ -76,8 +84,9 @@ body, html
     margin-bottom: 15px;
 }
 
-.about h6
+.about h3
 {
+    padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 45px;
@@ -126,7 +135,7 @@ body, html
     float: left;
 }
 .chart{
-    margin-top: 40px;
+    margin-top: 70px;
 }
 /*contact*/
 .contact .col
