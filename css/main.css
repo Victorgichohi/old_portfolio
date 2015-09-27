@@ -95,11 +95,13 @@ body, html
 
 
 
-/*about section*/
+/*portfolio section*/
 
 .portfolio .col
 {
     margin-bottom: 24px;
+    height: 300px;
+
 }
 
 .portfolio h5
@@ -124,16 +126,37 @@ body, html
 
 .portfolio .portfolio-holder
 {
-    clear: both;
+    
     text-align: center;
 }
 
 .portfolio img
 {
     width: 33%;
-    display: inline-block;
-    float: left;
+   
+  
 }
+.row .img1{
+    position: absolute;
+  margin-top: 20px!important;
+   top:70%!important;
+
+    
+}
+.row .img1 a{
+    position: absolute;
+    left:30%;
+}
+.row .img2{
+    position: absolute;
+   left: 60%;
+   top:227%;
+   width: 63%;
+   height: 60%;
+    
+}
+
+/*google chart*/
 .chart{
     margin-top: 70px;
 }
