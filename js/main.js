@@ -21,7 +21,7 @@
         ]);
 
         var options = {
-          title: 'My skills'
+          title: 'My skills on a percentage scale'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
