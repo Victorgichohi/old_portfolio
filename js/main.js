@@ -29,21 +29,16 @@
         chart.draw(data, options);
       }
 
-// back to top button
-var amountScrolled = 300;
-
+// ===== Scroll to Top ==== 
 $(window).scroll(function() {
-  if ( $(window).scrollTop() > amountScrolled ) {
-    $('a.back-to-top').fadeIn('slow');
-  } else {
-    $('a.back-to-top').fadeOut('slow');
-  }
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
 });
-
-// annimated scroll
-$('a.back-to-top').click(function() {
-  $('body, html').animate({
-    scrollTop: 0
-  }, 700);
-  return false;
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
 });
