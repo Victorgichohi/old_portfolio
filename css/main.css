@@ -137,6 +137,53 @@ color: gray;
     margin-bottom: 45px;
 }
 
+/*portfolio*/
+.portfolio .col
+{
+    margin-bottom: 24px;
+    display: inline-block;
+
+}
+
+.portfolio h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+
+.portfolio .portfolio-holder
+{
+    clear: both;
+    text-align: center;
+}
+
+.portfolio .one
+{
+    width: 33%;
+    
+    float: left;
+}
+.portfolio .portfolio-holder2
+{
+    clear: both;
+    text-align: center;
+}
+
+.portfolio .two
+{
+    width: 33%;
+   
+    padding: left;
+}
 
 
 
