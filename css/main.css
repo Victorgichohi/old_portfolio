@@ -93,7 +93,9 @@ body, html {
 
 
 /*portfolio*/
-
+#porto{
+  height:650px;
+}
 .portfolio .col {
   margin-bottom: 24px;
   display: inline-block;
@@ -108,7 +110,10 @@ body, html {
   text-transform: uppercase;
   margin-bottom: 45px;
 }
-
+.images{
+  padding-top: 70px;
+  padding-bottom:70px;
+}
 /*google chart*/
 
 .chart {
