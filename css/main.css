@@ -214,3 +214,12 @@ body, html {
 .porto_button{
   padding-left:420px;
 }
+
+/*animation css*/
+
+.bounceInDown{
+  animation-name: .bounceInDown;
+  animation-name: .bounceInDown;
+  -webkit-moz-animation-duration: 6s;
+  -webkit-animation-delay: 2s;
+}
