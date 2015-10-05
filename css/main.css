@@ -223,3 +223,9 @@ body, html {
   -webkit-moz-animation-duration: 6s;
   -webkit-animation-delay: 2s;
 }
+.bounceInLeft{
+  animation-name: .bounceInLeft;
+  animation-name: .bounceInLeft;
+  -webkit-moz-animation-duration: 6s;
+  -webkit-animation-delay: 2s;
+}
