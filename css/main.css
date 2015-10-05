@@ -91,6 +91,7 @@ body, html {
    height: 600px;
 }
 
+
 /*portfolio*/
 
 .portfolio .col {
@@ -209,4 +210,7 @@ body, html {
 .about_button {
   position: relative;
   top: 30px;
+}
+.porto_button{
+  padding-left:420px;
 }
