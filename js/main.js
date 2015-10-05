@@ -17,7 +17,7 @@
           ['CSS',      6],
           ['JavaScript',  4],
           ['Photography', 4],
-          
+
         ]);
 
         var options = {
@@ -29,7 +29,7 @@
         chart.draw(data, options);
       }
 
-// ===== Scroll to Top ==== 
+// ===== Scroll to Top ====
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(200);    // Fade in the arrow
