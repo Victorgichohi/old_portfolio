@@ -229,3 +229,22 @@ body, html {
   -webkit-moz-animation-duration: 6s;
   -webkit-animation-delay: 2s;
 }
+.bounceInRight{
+  animation-name: .bounceInRight;
+  animation-name: .bounceInRight;
+  -webkit-moz-animation-duration: 6s;
+  -webkit-animation-delay: 2s;
+}
+.wobble{
+  animation-name: .wobble;
+  animation-name: .wobble;
+  -webkit-moz-animation-duration: 6s;
+  -webkit-animation-delay: 3s;
+}
+
+.bounceInUp{
+  animation-name: .bounceInUp;
+  animation-name: .bounceInUp;
+  -webkit-moz-animation-duration: 6s;
+  -webkit-animation-delay: 3s;
+}
