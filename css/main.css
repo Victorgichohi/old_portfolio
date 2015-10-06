@@ -121,9 +121,11 @@ body, html {
 }
 
 /*contact*/
-
+#contact{
+  background-color: #0A6D83;
+}
 .contact .col {
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 }
 .contact h5 {
   text-align: center;
@@ -137,18 +139,18 @@ body, html {
 }
 .contact hr {
   width: 40px;
-  margin-bottom: 45px;
+  margin-bottom: 0px;
 }
 .contact .contact-holder {
   padding-left: 40px;
   text-align: left;
 }
 .contact .contact-holder h6 {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   text-align: left;
 }
 .contact .contact-holder p {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 /*return to top button*/
@@ -206,9 +208,9 @@ body, html {
 
 /*animation css*/
 
-.bounceInDown{
-  animation-name: .bounceInDown;
-  animation-name: .bounceInDown;
+.flipInY{
+  animation-name: .flipInY;
+  animation-name: .flipInY;
   -webkit-moz-animation-duration: 6s;
   -webkit-animation-delay: 2s;
 }
@@ -221,9 +223,9 @@ body, html {
 
 
 
-.bounceInUp{
-  animation-name: .bounceInUp;
-  animation-name: .bounceInUp;
+.slideInDown{
+  animation-name: .slideInDown;
+  animation-name: .slideInDown;
   -webkit-moz-animation-duration: 6s;
   -webkit-animation-delay: 3s;
 }
